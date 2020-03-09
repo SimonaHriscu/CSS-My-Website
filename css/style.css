@@ -1,10 +1,29 @@
 
+@media (min-width: 768px)
+.top-container {
+    width: auto;
+    height: 700px;
+}
+
+@media (min-width: 400px)
+.top-container {
+    width: auto;
+    height: 100vh;
+}
 body{
     color: #40514e;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
+
+.top-container{
+    min-height: 700px;
+    background-color: #d7fffd;
+    position: relative;
+    padding-top: 100px;
+}
+
 h1{
     color:#66BFBF;
     font-size: 5.625rem;
@@ -12,6 +31,21 @@ h1{
     margin: 50px auto 50px auto;
     font-family: 'Sacramento', cursive;
 }
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;   
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 330px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
 h2{
     color:#66BFBF;
     font-size: 1.5rem;
@@ -27,58 +61,6 @@ h3{
 p{
     line-height: 2;
 }
-hr{
-    border: 6px  #bfcaca dotted;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
-}
-a{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-a:hover{
-    color: #eaf6f6;
-}
-.btn:hover{
-    border:1px #66BFBF solid;
-    border-radius: 50%;
-    color: #66BFBF;
-
-
-}
-.copyright{
-    color: #eaf6f6;
-    font-size: 0.75rem;
-    padding:20px 0;
-}
-
-.top-container{
-    background-color: #d7fffd;
-    position: relative;
-    padding-top: 100px;
-}
-.middle-container{
-    margin: 100px 0;
-}
-.bottom-container{
-    background-color: #66BFBF;
-    padding: 50px 0 20px;
-}
-
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 40px;   
-}
-.bottom-cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 330px;
-}
-
 #profile{
     width: 20%;
     border-radius: 50%;
@@ -87,11 +69,14 @@ a:hover{
     width: 30%;
     margin: auto;
 }
-.contact-message{
-    width: 40%;
-    margin:40px auto 60px;
 
+hr{
+    border: 6px  #bfcaca dotted;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
+
 .design-img, 
 .strategy-img{
     width: 25%;
@@ -112,4 +97,32 @@ a:hover{
     margin: 100px auto;
     text-align: left;
     
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.contact-message{
+    width: 40%;
+    margin:40px auto 60px;
+
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+.btn:hover{
+    border:1px #66BFBF solid;
+    border-radius: 50%;
+    color: #66BFBF;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding:20px 0;
 }
