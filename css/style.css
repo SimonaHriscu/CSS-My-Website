@@ -1,5 +1,6 @@
 
 body{
+    color: #40514e;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -8,54 +9,107 @@ h1{
     color:#66BFBF;
     font-size: 5.625rem;
     line-height: 0.5;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 50px auto;
     font-family: 'Sacramento', cursive;
 }
 h2{
     color:#66BFBF;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+    padding-bottom: 10px;
+   
 }
 h3{
     color:#11999E;
     font-family: 'Montserrat', sans-serif;
 }
+p{
+    line-height: 2;
+}
+hr{
+    border: 6px  #bfcaca dotted;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+.btn:hover{
+    border:1px #66BFBF solid;
+    border-radius: 50%;
+    color: #66BFBF;
+
+
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding:20px 0;
+}
+
 .top-container{
     background-color: #d7fffd;
     position: relative;
     padding-top: 100px;
 }
 .middle-container{
-    
+    margin: 100px 0;
 }
 .bottom-container{
-    
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
 }
 
 .top-cloud{
     position: absolute;
     right: 300px;
-    top: 50px;   
+    top: 40px;   
 }
 .bottom-cloud{
     position: absolute;
     left: 300px;
-    bottom: 300px;
+    bottom: 330px;
 }
 
 #profile{
-    width: 150px;
-    height: 150px;
+    width: 20%;
     border-radius: 50%;
 }
-.code-img{
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
+.intro{
+    width: 30%;
+    margin: auto;
 }
-.chilli-img{
-    width: 450px;
-    height: 450px;
+.contact-message{
+    width: 40%;
+    margin:40px auto 60px;
+
+}
+.design-img, 
+.strategy-img{
+    width: 25%;
     border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    
+}
+.dev-img{
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    margin-left:30px;
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
 }
